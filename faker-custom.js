@@ -1,4 +1,4 @@
-import faker from 'https://cdn.jsdelivr.net/npm/@faker-js/faker@8.2.0/+esm';
+import * as faker from 'https://cdn.jsdelivr.net/npm/@faker-js/faker@8.2.0/+esm';
 
 function checkFaker(){
 		return faker.simpleFaker.date.future(3)
